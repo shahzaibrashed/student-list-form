@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student List</title>
+    <link rel="icon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQOqMT5BTS-s3ys7z90rbjcd7VY1-hBO-pY9g&usqp=CAU">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+<body style="background-color: black;">
+    <h2>Students List Form</h2>
+    <div  class="main01">
+        <input type="text" required placeholder="Student Name" id="firstName"> <br>
+        <input class="inp2" type="text" required placeholder="father Name" id="lastName">
+        <!-- <input type="email" required placeholder="Student Email" id="email">
+        <input type="number" min="1" max="11" placeholder="Student contact " id="contact">
+        <input type="date" required placeholder="Birth Date" id="dateofbirth"> -->
+    </div>
+    <div class="main02"><button onclick="clickk()" id="btn">ADD LIST</button></div>
+    <div id="main03">
+        
+        <h2>Student List</h2>
+        <h2>Total Students <span id="TS"></span></h2>
+    </div>
+    <section id="main04">
+        <div class="tabb">
+            <table>
+                <thead>
+                    <th>S:NO</th>
+                    <th>S:Name</th>
+                    <th>F:Name</th>
+                    <!-- <th>Student : Email</th>
+                    <th>Student : contact</th>
+                    <th> Dirth : Of : Birth</th> -->
+                    <th>S:ID</th>
+                    <th>Del </th>
+                </thead>
+                <thead id="TDVAL">
+                </thead>
+            </table>
+        </div>
+    </section>
+    <section id="mainlast">
+        <div class="footer">
+            <div onclick="cancle()" class="x">Hide List</div>
+        </div>
+    </section>
+    <script src="app.js"></script>
+</body>
+</html>

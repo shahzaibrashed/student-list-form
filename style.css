@@ -1,0 +1,107 @@
+th{
+    /* width: 80px; */
+    height: 30px;
+    border: 2px solid blue;
+    font-size: 20px;
+    color: blue;
+    background-color: aqua;
+    border-radius: 5px;
+}
+th:hover{
+    background-color: blue;
+    color: aqua;
+    border: 2px solid aqua;
+}
+td{
+    text-align: center;
+    /* width: 80px; */
+    height: 30px;
+    margin-top: 10px;
+    background-color: white;
+    color: brown;
+    border: 2px solid brown;
+    border-radius: 2px;
+    font-size: 20px;
+}
+td:hover{
+    border: 2px solid white;
+    background-color: brown;
+    color: white;
+}
+.main01{
+display: flex;
+justify-content: center;
+flex-wrap: wrap;
+}
+input{
+    width: 200px;
+    height: 30px;
+    font-size:20px;
+    border: 2px solid blue;
+    border-radius: 10px;
+    padding-left:10px;
+    margin-left: 5px;
+    color:blue ;
+    background-color: white;
+    margin-left: 10px;
+}
+.inp2{
+    margin-top:10px ;
+}
+/* input:hover{
+    background-color: blue;
+    color: white;
+    border: 2px solid white;
+} */
+::placeholder{
+    color: blue;
+}
+.main02{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+button{
+    height: 30px;
+    width: 100px;
+    border: transparent;
+    border-radius: 10px;
+font-size: 15px;
+background-color: blue;
+color: white;
+}
+h2{
+    color: white;
+    text-align: center;
+}
+.tabb{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    flex-wrap: wrap;
+}
+span{
+    margin-left: 5px;
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+.x{
+    width: 120px;
+    height: 30px;
+    border: 1px solid white;
+    color: white;
+    font-size: 25px;
+    border-radius: 20px;
+    background-color: red;
+    text-align: center;
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+.x:hover{
+    background-color: white;
+    color: red;
+    border: 1px solid red;
+}
